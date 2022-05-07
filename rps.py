@@ -18,7 +18,7 @@ while True:
     if (player == 'rock' and computer == 'scissors') or (player == 'paper' and computer == 'rock') or (player == 'scissors' and computer == 'paper'):
         print('you win')
 
-    if (player == 'rock' and computer == 'paper') or (player == 'paper' and computer == 'scissors') or (player == 'scissors' and computer == 'rock'):
+    else:
         print('you lose')
     
     playAgain = input('Do you want to play again (Y/N): ').lower()
